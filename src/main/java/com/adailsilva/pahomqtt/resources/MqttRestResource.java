@@ -13,7 +13,7 @@ import com.adailsilva.pahomqtt.mqtt.publishers.MqttPublisherBase;
 /* Demo Controller to Test Rest API */
 
 @RestController
-public class MqttRestController {
+public class MqttRestResource {
 
 	@Autowired
 	MqttPublisherBase publisher;

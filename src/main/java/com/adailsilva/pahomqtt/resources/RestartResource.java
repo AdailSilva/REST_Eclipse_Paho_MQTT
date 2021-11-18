@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.adailsilva.pahomqtt.RestEclipsePahoMqttApplication;
 
 @RestController
-public class RestartController {
+public class RestartResource {
 	
 	@PostMapping(value = "/adailsilva/mqtt/restart")
 	public void restartRestEclipsePahoMqttApplication() {
